@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4441B791B89018800869F3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4441B781B89018800869F3E /* AppDelegate.swift */; };
+		F4441B7B1B89018800869F3E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4441B7A1B89018800869F3E /* GameScene.swift */; };
+		F4441B7D1B89018800869F3E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4441B7C1B89018800869F3E /* GameScene.sks */; };
+		F4441B7F1B89018800869F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4441B7E1B89018800869F3E /* Assets.xcassets */; };
+		F4441B821B89018800869F3E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4441B801B89018800869F3E /* MainMenu.xib */; };
+		F4441B8D1B89018900869F3E /* WhatsAMonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4441B8C1B89018900869F3E /* WhatsAMonsterTests.swift */; };
+		F4441B981B89018900869F3E /* WhatsAMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4441B971B89018900869F3E /* WhatsAMonsterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4441B891B89018900869F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4441B6D1B89018800869F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4441B741B89018800869F3E;
+			remoteInfo = WhatsAMonster;
+		};
+		F4441B941B89018900869F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4441B6D1B89018800869F3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4441B741B89018800869F3E;
+			remoteInfo = WhatsAMonster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4441B751B89018800869F3E /* WhatsAMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4441B781B89018800869F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4441B7A1B89018800869F3E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F4441B7C1B89018800869F3E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F4441B7E1B89018800869F3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4441B811B89018800869F3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F4441B831B89018800869F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4441B881B89018900869F3E /* WhatsAMonsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsAMonsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4441B8C1B89018900869F3E /* WhatsAMonsterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAMonsterTests.swift; sourceTree = "<group>"; };
+		F4441B8E1B89018900869F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4441B931B89018900869F3E /* WhatsAMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsAMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4441B971B89018900869F3E /* WhatsAMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAMonsterUITests.swift; sourceTree = "<group>"; };
+		F4441B991B89018900869F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4441B721B89018800869F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4441B851B89018900869F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4441B901B89018900869F3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4441B6C1B89018800869F3E = {
+			isa = PBXGroup;
+			children = (
+				F4441B771B89018800869F3E /* WhatsAMonster */,
+				F4441B8B1B89018900869F3E /* WhatsAMonsterTests */,
+				F4441B961B89018900869F3E /* WhatsAMonsterUITests */,
+				F4441B761B89018800869F3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4441B761B89018800869F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4441B751B89018800869F3E /* WhatsAMonster.app */,
+				F4441B881B89018900869F3E /* WhatsAMonsterTests.xctest */,
+				F4441B931B89018900869F3E /* WhatsAMonsterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4441B771B89018800869F3E /* WhatsAMonster */ = {
+			isa = PBXGroup;
+			children = (
+				F4441B781B89018800869F3E /* AppDelegate.swift */,
+				F4441B7A1B89018800869F3E /* GameScene.swift */,
+				F4441B7C1B89018800869F3E /* GameScene.sks */,
+				F4441B7E1B89018800869F3E /* Assets.xcassets */,
+				F4441B801B89018800869F3E /* MainMenu.xib */,
+				F4441B831B89018800869F3E /* Info.plist */,
+			);
+			path = WhatsAMonster;
+			sourceTree = "<group>";
+		};
+		F4441B8B1B89018900869F3E /* WhatsAMonsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4441B8C1B89018900869F3E /* WhatsAMonsterTests.swift */,
+				F4441B8E1B89018900869F3E /* Info.plist */,
+			);
+			path = WhatsAMonsterTests;
+			sourceTree = "<group>";
+		};
+		F4441B961B89018900869F3E /* WhatsAMonsterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4441B971B89018900869F3E /* WhatsAMonsterUITests.swift */,
+				F4441B991B89018900869F3E /* Info.plist */,
+			);
+			path = WhatsAMonsterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4441B741B89018800869F3E /* WhatsAMonster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4441B9C1B89018900869F3E /* Build configuration list for PBXNativeTarget "WhatsAMonster" */;
+			buildPhases = (
+				F4441B711B89018800869F3E /* Sources */,
+				F4441B721B89018800869F3E /* Frameworks */,
+				F4441B731B89018800869F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsAMonster;
+			productName = WhatsAMonster;
+			productReference = F4441B751B89018800869F3E /* WhatsAMonster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4441B871B89018900869F3E /* WhatsAMonsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4441B9F1B89018900869F3E /* Build configuration list for PBXNativeTarget "WhatsAMonsterTests" */;
+			buildPhases = (
+				F4441B841B89018900869F3E /* Sources */,
+				F4441B851B89018900869F3E /* Frameworks */,
+				F4441B861B89018900869F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4441B8A1B89018900869F3E /* PBXTargetDependency */,
+			);
+			name = WhatsAMonsterTests;
+			productName = WhatsAMonsterTests;
+			productReference = F4441B881B89018900869F3E /* WhatsAMonsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4441B921B89018900869F3E /* WhatsAMonsterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4441BA21B89018900869F3E /* Build configuration list for PBXNativeTarget "WhatsAMonsterUITests" */;
+			buildPhases = (
+				F4441B8F1B89018900869F3E /* Sources */,
+				F4441B901B89018900869F3E /* Frameworks */,
+				F4441B911B89018900869F3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4441B951B89018900869F3E /* PBXTargetDependency */,
+			);
+			name = WhatsAMonsterUITests;
+			productName = WhatsAMonsterUITests;
+			productReference = F4441B931B89018900869F3E /* WhatsAMonsterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4441B6D1B89018800869F3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Team Awesome McPants";
+				TargetAttributes = {
+					F4441B741B89018800869F3E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F4441B871B89018900869F3E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F4441B741B89018800869F3E;
+					};
+					F4441B921B89018900869F3E = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F4441B741B89018800869F3E;
+					};
+				};
+			};
+			buildConfigurationList = F4441B701B89018800869F3E /* Build configuration list for PBXProject "WhatsAMonster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4441B6C1B89018800869F3E;
+			productRefGroup = F4441B761B89018800869F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4441B741B89018800869F3E /* WhatsAMonster */,
+				F4441B871B89018900869F3E /* WhatsAMonsterTests */,
+				F4441B921B89018900869F3E /* WhatsAMonsterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4441B731B89018800869F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4441B7F1B89018800869F3E /* Assets.xcassets in Resources */,
+				F4441B7D1B89018800869F3E /* GameScene.sks in Resources */,
+				F4441B821B89018800869F3E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4441B861B89018900869F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4441B911B89018900869F3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4441B711B89018800869F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4441B7B1B89018800869F3E /* GameScene.swift in Sources */,
+				F4441B791B89018800869F3E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4441B841B89018900869F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4441B8D1B89018900869F3E /* WhatsAMonsterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4441B8F1B89018900869F3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4441B981B89018900869F3E /* WhatsAMonsterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4441B8A1B89018900869F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4441B741B89018800869F3E /* WhatsAMonster */;
+			targetProxy = F4441B891B89018900869F3E /* PBXContainerItemProxy */;
+		};
+		F4441B951B89018900869F3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4441B741B89018800869F3E /* WhatsAMonster */;
+			targetProxy = F4441B941B89018900869F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4441B801B89018800869F3E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4441B811B89018800869F3E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4441B9A1B89018900869F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4441B9B1B89018900869F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4441B9D1B89018900869F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhatsAMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamawesomemcpants.WhatsAMonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4441B9E1B89018900869F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhatsAMonster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamawesomemcpants.WhatsAMonster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4441BA01B89018900869F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhatsAMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamawesomemcpants.WhatsAMonsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsAMonster.app/Contents/MacOS/WhatsAMonster";
+			};
+			name = Debug;
+		};
+		F4441BA11B89018900869F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhatsAMonsterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamawesomemcpants.WhatsAMonsterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsAMonster.app/Contents/MacOS/WhatsAMonster";
+			};
+			name = Release;
+		};
+		F4441BA31B89018900869F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhatsAMonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamawesomemcpants.WhatsAMonsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhatsAMonster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F4441BA41B89018900869F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WhatsAMonsterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamawesomemcpants.WhatsAMonsterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhatsAMonster;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4441B701B89018800869F3E /* Build configuration list for PBXProject "WhatsAMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4441B9A1B89018900869F3E /* Debug */,
+				F4441B9B1B89018900869F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4441B9C1B89018900869F3E /* Build configuration list for PBXNativeTarget "WhatsAMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4441B9D1B89018900869F3E /* Debug */,
+				F4441B9E1B89018900869F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4441B9F1B89018900869F3E /* Build configuration list for PBXNativeTarget "WhatsAMonsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4441BA01B89018900869F3E /* Debug */,
+				F4441BA11B89018900869F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4441BA21B89018900869F3E /* Build configuration list for PBXNativeTarget "WhatsAMonsterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4441BA31B89018900869F3E /* Debug */,
+				F4441BA41B89018900869F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4441B6D1B89018800869F3E /* Project object */;
+}
